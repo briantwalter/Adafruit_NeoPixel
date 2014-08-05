@@ -14,3 +14,5 @@ After downloading, rename folder to 'Adafruit_NeoPixel' and install in Arduino L
 
 fork()ed to VMAX NewPixel KnockOff
 ==================================
+
+Some more information here about what the goal of the hardware/software is.
