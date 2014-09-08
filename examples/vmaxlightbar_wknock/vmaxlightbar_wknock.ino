@@ -9,11 +9,11 @@
 
 // configuration constants
 const int knocksensor = A0;        // piezo sensor on analog 0
-const int knockthres = 20;         // sensitivity of piezo
+const int knockthres = 10;         // sensitivity of piezo
 const int noofpixels = 34;         // number of NeoPixels in the light bar
 const int endofpixels = 0;         // this to where you want it to start/end 
 const boolean usingbar = true;     // true for the 8x1 Neopixel Bar or false for 3 leds
-const int knockgap = 2000;         // milisecond interval to listen for knocks
+const int knockgap = 4000;         // milisecond interval to listen for knocks
 //configuration variables
 int knockreading = 0;
 
