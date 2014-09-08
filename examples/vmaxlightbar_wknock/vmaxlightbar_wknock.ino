@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 //
-// vmaxlightbar_wknock_v1      VMAX Light Bar with Knock Sensor
+// vmaxlightbar_wknock         VMAX Light Bar with Knock Sensor
 // version                     0.0.1
 // author                      Brian Walter @briantwalter
 // description                 Modification of EMC VMAX cabinet light feature
