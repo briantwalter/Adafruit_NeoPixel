@@ -22,4 +22,4 @@ vmaxlightbar
 
 Some more information here about what the goal of the hardware/software is.
 
-Have a look in the examples folder for the `.ino` file specific for this hardware config.
+Have a look in the examples folder for the `vmaxlightbar_wknock.ino` file specific for this hardware config.
