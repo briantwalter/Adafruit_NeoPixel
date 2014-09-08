@@ -14,7 +14,12 @@ After downloading, rename folder to 'Adafruit_NeoPixel' and install in Arduino L
 
 ###fork()ed to 
 
-VMAX Neo Pixel Knock Off
-========================
+~~VMAX Neo Pixel Knock Off~~
+=============================
+
+vmaxlightbar
+============
 
 Some more information here about what the goal of the hardware/software is.
+
+Have a look in the examples folder for the `.ino` file specific for this hardware config.
