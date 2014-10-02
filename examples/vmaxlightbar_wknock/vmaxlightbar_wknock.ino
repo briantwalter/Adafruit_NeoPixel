@@ -46,7 +46,7 @@ void loop() {
   for(uint16_t i=0; i<knockgap; i++) {
     knockreading = analogRead(knocksensor);
     if (knockreading >= knockthres) {
-      theaterChase(strip.Color(153, 0, 153), 50); // Purple
+      colorWipe(strip.Color(153, 0, 153), 50); // Purple
       delay(1);
   }
  }
@@ -56,7 +56,7 @@ void loop() {
   for(uint16_t i=0; i<knockgap; i++) {
     knockreading = analogRead(knocksensor);
     if (knockreading >= knockthres) {
-      theaterChase(strip.Color(255, 128, 0), 50); // Orange
+      colorWipe(strip.Color(255, 128, 0), 50); // Orange
       delay(1);
   }
  }
@@ -66,13 +66,12 @@ void loop() {
   for(uint16_t i=0; i<knockgap; i++) {
     knockreading = analogRead(knocksensor);
     if (knockreading >= knockthres) {
-      theaterChase(strip.Color(255, 255, 0), 50); // Yellow
+      colorWipe(strip.Color(255, 255, 0), 50); // Yellow
       delay(1);
   }
  }
  // end cycle with rainbow
  rainbow(10);
- theaterChaseRainbow(20);
  colorWipe(strip.Color(0, 255, 0), 50); // Green
 }
 // end main loop
